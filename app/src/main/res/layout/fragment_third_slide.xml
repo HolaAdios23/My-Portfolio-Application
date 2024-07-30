@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/yellowthird"
+    android:gravity="center"
+
+    tools:context=".FirstSlideFragment">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginBottom="25dp"
+        app:shapeAppearanceOverlay="@style/Circular"
+        android:src="@drawable/thirdslide"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:text="@string/third_slide_Headline"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textColor="#3E3E3E"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+
+        android:text="@string/third_slide_description"
+        android:lineSpacingExtra="10dp"
+        android:textSize="18sp"
+        android:textColor="#373737"
+        android:textAlignment="center"
+        android:textStyle="normal"/>
+
+
+
+
+
+</LinearLayout>

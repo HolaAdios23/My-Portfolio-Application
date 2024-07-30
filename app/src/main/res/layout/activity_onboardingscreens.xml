@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="20dp"
+
+    tools:context=".OnBoardingScreen">
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@id/outof"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+    <LinearLayout
+        android:id="@+id/outof"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_marginTop="30dp"
+       app:layout_constraintBottom_toTopOf="@+id/nextandskip"
+        >
+        <TextView
+            android:id="@+id/onboardingno"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="@string/slide_numbers"
+            android:textSize="20sp"
+            android:textColor="#4E4D4D"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/nextandskip"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:gravity="center"
+        />
+<Button
+    android:id="@+id/skip_button"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/skip_button"
+    android:layout_marginBottom="5dp"
+    android:text="@string/skip_button"
+    android:textSize="20sp"
+    android:textColor="#63B1CD"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintStart_toStartOf="parent"/>
+    <Button
+        android:id="@+id/nexttouch"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:background="@drawable/custom_submitbutton"
+        android:layout_marginBottom="5dp"
+        android:text="@string/next_button"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

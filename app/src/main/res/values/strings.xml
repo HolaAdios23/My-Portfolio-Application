@@ -1,0 +1,100 @@
+<resources>
+    <string name="app_name">PorfolioApp</string>
+    <string name="skip_button">Skip</string>
+    <string name="next_button">Next</string>
+    <string name="first_slide_Headline">Get To Know About Me!</string>
+    <string name="first_slide_description">In this app, I have created a home screen and a profile screen for a brief introduction about myself.</string>
+    <string name="second_slide_Headline">Discover My Skill!</string>
+    <string name="second_slide_description">For my skills, I have included programming skills as well as some soft skills on the skill screen.</string>
+    <string name="third_slide_Headline">Discover My Hobby!</string>
+    <string name="third_slide_description">For my hobbies, I have included some activity done in my leisure time in hobby screen. </string>
+    <string name="slide_numbers">1 Out Of 3</string>
+
+    <!-- This String is for Home Screen  -->
+    <string name="Welcome">Welcome!</string>
+    <string name="Welcomelines">Hey there! Welcome to Rezone Majhakoti\'s App. You\'ve landed on the home screen, which serves as a brief introduction to this app. Inside, there are five screens: onboarding, home, profile, skills, hobbies, and contact.</string>
+    <!-- /////////////////////////////////////////////// -->
+
+
+    <!-- This String is for Contact Screen  -->
+    <string name="titlecontact">Contact</string>
+    <string name="titlename">Name</string>
+    <string name="namehint">Rezone</string>
+    <string name="titlephonenumber">Phone Number</string>
+    <string name="phonenumberhint">+977 9702909839</string>
+    <string name="titleemail">Email</string>
+    <string name="emailhint">RezoneMajhakoti@gmail.com</string>
+    <string name="titledescription">Description</string>
+    <string name="descriptionhint">Feel Free To ask!</string>
+    <string name="submit">Submit</string>
+    <!-- /////////////////////////////////////////////// -->
+
+    <!-- This String is for profile Screen  -->
+    <string name="profilename">Rezone Majhakoti</string>
+    <string name="profiledob"> 1999/09/16</string>
+    <string name="profilegender">  Male</string>
+    <string name="profilestatus">Bachelor</string>
+    <string name="profilecover">COVER</string>
+<!--    <string name="profiledescription">This is the Profile Screen where I introduce my personal information. Currently, I\'m a second-year Bachelor\'s student specializing in Mobile Application Development (MAD). Under the guidance of our mentor, Sir Prithivi Maharjhan, I\'ve developed this app. </string>-->
+
+    <!-- /////////////////////////////////////////////// -->
+
+    <!-- This is for 4 cardview names -->
+
+    <string name="accountname">Instagram</string>
+    <string name="emailname">Gmail</string>
+    <string name="locationname">Location</string>
+    <string name="gallaryname">Facebook</string>
+    <string name="appname">Mr.Rezone</string>
+
+    <!-- /////////////////////////////////////////////// -->
+    <!-- This String is for skill Screen  -->
+    <string name="titleprogramming">Programming Skill</string>
+    <string name="javatitle">JAVA</string>
+    <string name="levelone">Beginner</string>
+    <string name="leveltwo">Intermediate</string>
+    <string name="levelthree">Expert</string>
+    <string name="fluttertitle">FLUTTER</string>
+    <string name="cplustitle">C++</string>
+    <string name="pythontitle">PYTHON</string>
+    <string name="htmltitle">HTML</string>
+    <string name="csstitle">CSS</string>
+    <string name="sqltitle">SQL</string>
+
+    <string name="communicationtitle">COMMUNICATION</string>
+    <string name="teamworktitle">TEAMWORK</string>
+    <string name="adaptablilitytitle">ADAPTABILITY</string>
+    <string name="problemsolvingtitle">PROBLEM SOLVING</string>
+    <string name="timemanagementtitle">TIMEMANAGEMENT</string>
+    <string name="positiveattitudetitle">POSITIVE ATTITUDE</string>
+    <string name="criticalthinkingtitle">CRITICAL THINKING</string>
+    <string name="creativitytitle">CREATIVITY</string>
+
+    <string name="titlesoftskill">Soft Skill</string>
+
+    <!-- /////////////////////////////////////////////// -->
+
+    <!-- This String is for Hobbies Screen  -->
+    <string name="Hobbiestitle">Hobbies</string>
+    <string name="Hobbiesone">WATCHING ANIME</string>
+    <string name="hobbiestwo">PLAYING GUITAR</string>
+    <string name="hobbiesthree">DESIGNING ART</string>
+    <string name="hobbiesfour">PHOTOGRAPHY</string>
+    <string name="hobbiesfive">VIDEOGRAPHY</string>
+    <string name="hobbiessix">GAMING</string>
+    <string name="hobbiesseven">TRAVELING</string>
+    <string name="hobbieseight">WRITING</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_splash_screen">SplashScreen</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+
+    <!-- /////////////////////////////////////////////// -->
+
+
+</resources>
